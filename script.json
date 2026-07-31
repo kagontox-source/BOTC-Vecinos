@@ -1,0 +1,337 @@
+[
+  {
+    "id": "_meta",
+    "author": "Creado y diseñado por Zifnab (Kagontox)",
+    "name": "¿Puedo confiar en mis vecinos?",
+    "hideTitle": false,
+    "background": "https://p19-cc-web-image-sign-sg.ibyteimg.com/tos-alisg-i-tnf8g33v4j-sg/cdeb396767704d5ca231f819797dd7e4~tplv-tnf8g33v4j-ai-watermark-resize:2508:1672.image?rk3s=855ced9f&x-expires=1785501979&amp;x-signature=MGKicpxTQaddwD%2BVik81NTWqu1Y%3D",
+    "firstNight": [
+      "dusk",
+      "minioninfo",
+      "demoninfo",
+      "El Boticario",
+      "El Cizañero",
+      "El Hipnotista",
+      "El Titiritero",
+      "El Historiador",
+      "El Escudero",
+      "El Astrónomo",
+      "El Vigía",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "El Boticario",
+      "El Cizañero",
+      "El Hipnotista",
+      "El Tabernero",
+      "El Mosquetero",
+      "El Titiritero",
+      "La Sombra",
+      "El Basilisco",
+      "El Profanador",
+      "El Vigía",
+      "El Escudero",
+      "El Panadero",
+      "dawn"
+    ]
+  },
+  {
+    "id": "El Panadero",
+    "name": "PANADERO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/panadero.png",
+    "team": "townsfolk",
+    "ability": "Cada noche*, sabes si esta noche se han despertado más, menos o la misma cantidad de personajes que la noche anterior.Empieza en noche 2.",
+    "flavor": "\"El horno no es lo único que se calienta a altas horas de la madrugada.\"",
+    "firstNight": 0,
+    "otherNight": 60,
+    "otherNightReminder": "Indica al Panadero si se despertaron más, menos o la misma cantidad de personajes que la noche anterior."
+  },
+  {
+    "id": "El Herrero",
+    "name": "HERRERO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/herrero.png",
+    "team": "townsfolk",
+    "ability": "La primera vez que seas elegido por el Demonio, este no actúa esa noche y pierdes tu habilidad.",
+    "flavor": "\"El buen acero aguanta incluso el embate de las bestias más feroces.\"",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "SIN HABILIDAD"
+    ]
+  },
+  {
+    "id": "El Boticario",
+    "name": "BOTICARIO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/boticario.png",
+    "team": "townsfolk",
+    "ability": "Elige a vecino vivo: si es objetivo de la habilidad de un Esbirro esta noche, la habilidad del esbirro no funciona.",
+    "flavor": "\"Una pizca de flor de saúco neutraliza hasta la peor de las influencias.\"",
+    "firstNight": 10,
+    "otherNight": 10,
+    "firstNightReminder": "Elige a vecino vivo: si es objetivo de la habilidad de un Esbirro esta noche, la habilidad del esbirro no funciona.",
+    "otherNightReminder": "Elige a vecino vivo: si es objetivo de la habilidad de un Esbirro esta noche, la habilidad del esbirro no funciona.",
+    "reminders": [
+      "PROTEGIDO"
+    ]
+  },
+  {
+    "id": "El Astrónomo",
+    "name": "ASTRÓNOMO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/astronomo.png",
+    "team": "townsfolk",
+    "ability": "En tu primera noche, se te muestran 1 ficha de Demonio que no está en juego.",
+    "flavor": "\"Las estrellas me revelaron qué horrores no habitan bajo nuestro cielo.\"",
+    "firstNight": 90,
+    "otherNight": 0,
+    "firstNightReminder": "Muestra al Astrónomo 1 ficha de Demonio que no está en juego."
+  },
+  {
+    "id": "El Historiador",
+    "name": "HISTORIADOR",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/historiador.png",
+    "team": "townsfolk",
+    "ability": "En tu primera noche, sabes cuántos Forasteros hay en juego y se te muestran 2 fichas de Forastero (al menos una no está en juego). [+1 Forastero extra].",
+    "flavor": "\"Quien no conoce los viejos relatos está condenado a ignorar a las víctimas del pueblo.\"",
+    "firstNight": 40,
+    "otherNight": 0,
+    "firstNightReminder": "En tu primera noche, sabes cuántos Forasteros hay en juego y se te muestran 2 fichas de Forastero (al menos una no está en juego). [+1 Forastero extra]."
+  },
+  {
+    "id": "El Vigía",
+    "name": "VIGÍA",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/vigia.png",
+    "team": "townsfolk",
+    "ability": "Cada noche, sabes si tus vecinos vivos se despiertan por la noche. Una vez por partida puedes elegir a uno de ellos y descubrir su alineamiento.",
+    "flavor": "\"Desde mi torre, ningún paseo nocturno de al lado pasa desapercibido.\"",
+    "firstNight": 85,
+    "otherNight": 45,
+    "firstNightReminder": "Cada noche, sabes si uno tus vecinos vivos se despierta por la noche, pero no cual. Una vez por partida puedes elegir a uno de ellos y descubrir su alineamiento.",
+    "otherNightReminder": "Cada noche, sabes si uno tus vecinos vivos se despierta por la noche, pero no cual. Una vez por partida puedes elegir a uno de ellos y descubrir su alineamiento.",
+    "reminders": [
+      "SIN HABILIDAD"
+    ]
+  },
+  {
+    "id": "El Escudero",
+    "name": "ESCUDERO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/escudero.png",
+    "team": "townsfolk",
+    "ability": "Cada noche, si tus dos vecinos vivos son del mismo alineamiento, te despiertas y el Narrador te lo confirma (no sabes qué alineamiento es).",
+    "flavor": "\"Puedo sentir la armonía o la corrupción fluyendo entre quienes me rodean.\"",
+    "firstNight": 50,
+    "otherNight": 55,
+    "firstNightReminder": "Si ambos vecinos vivos son del mismo alineamiento, indica SI al Escudero.",
+    "otherNightReminder": "Si ambos vecinos vivos son del mismo alineamiento, indica SI al Escudero.",
+    "reminders": [
+      "MISMO ALINEAMIENTO"
+    ]
+  },
+  {
+    "id": "El Alguacil",
+    "name": "ALGUACIL",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/alguacil.png",
+    "team": "townsfolk",
+    "ability": "Una vez por partida, antes de la fase de nominaciones, puedes declarar públicamente tu rol; Escoge a un jugador, este no puede nominar.",
+    "flavor": "\"¡En nombre de la ley, mantén la boca cerrada durante este juicio!\"",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "El Tabernero",
+    "name": "TABERNERO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/tabernero.png",
+    "team": "townsfolk",
+    "ability": "Cada noche*, elige a un jugador vivo: queda protegido contra la muerte esta noche, podría estar borracho hasta la noche siguiente.",
+    "flavor": "\"Un buen trago te protege de las sombras... aunque mañana no recuerdes ni tu nombre.\"",
+    "firstNight": 0,
+    "otherNight": 20,
+    "otherNightReminder": "Elige a un jugador vivo. Queda protegido esta noche y podría estar borracho hasta el atardecer.",
+    "reminders": [
+      "BORRACHO",
+      "PROTEGIDO"
+    ]
+  },
+  {
+    "id": "El Escribano",
+    "name": "ESCRIBANO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/escribano.png",
+    "team": "townsfolk",
+    "ability": "Una vez por partida, durante el día, puedes preguntarle al Narrador cuántos de los jugadores muertos son Aldeanos, Forasteros o Esbirros.",
+    "flavor": "\"Llevo el registro exacto de cada alma que ha caído en esta plaza.\"",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "SIN HABILIDAD",
+      "USADA 1"
+    ]
+  },
+  {
+    "id": "El Apostador",
+    "name": "APOSTADOR",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/apostador.png",
+    "team": "townsfolk",
+    "ability": "Una vez por partida, durante el día, adivina en privado con el Narrador el rol de un vecino vivo: si aciertas, descubres su alineamiento; si fallas, quedas borracho el resto de la partida.",
+    "flavor": "\"Me juego la cordura a que la persona de al lado no es quien dice ser.\"",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "BORRACHO"
+    ]
+  },
+  {
+    "id": "El Mensajero",
+    "name": "MENSAJERO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/mensajero.png",
+    "team": "townsfolk",
+    "ability": "Una vez por partida, tras una ejecución exitosa, preguntas al Narrador al atardecer si el ejecutado o alguno de sus vecinos vivos es malvado. Pierdes tu habilidad si quedan 3 jugadores vivos.",
+    "flavor": "\"Traigo malas noticias sobre los alrededores de la horca.\"",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "El Mosquetero",
+    "name": "MOSQUETERO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/mosquetero.png",
+    "team": "townsfolk",
+    "ability": "Cada noche*, elige a un jugador para protegerlo muriendo en su lugar. Sabes quien era el jugador escogido.",
+    "flavor": "\"¡Uno para todos, y todas para mi, aunque tenga que dar la vida por ti!\"",
+    "firstNight": 0,
+    "otherNight": 25,
+    "otherNightReminder": "Elige a un jugador para protegerlo muriendo en su lugar. Sabes quien era el jugador escogido.",
+    "reminders": [
+      "SELECCIONADO"
+    ]
+  },
+  {
+    "id": "El Intruso",
+    "name": "INTRUSO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/intruso.png",
+    "team": "outsider",
+    "ability": "Cada noche par, si uno de tus vecinos vivos se despierta, si es bueno, podría quedar borracho.",
+    "flavor": "\"Disculpad... no pretendía molestar vuestros asuntos nocturnos.\"",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "El Cobarde",
+    "name": "COBARDE",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/cobarde.png",
+    "team": "outsider",
+    "ability": "Si eres nominado y quedas marcado, mueres inmediatamente. No se puede nominar al jugador que te nominó hoy.",
+    "flavor": "\"¡Te das cuen, pecador de la pradera!\", \"¡Al ataquerrr, cobarde!\",\"¡Cobarde, pecador de la pradera!\", \"¡Hasta luego, Lucas, pecador\" ... Al hoyo.",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "El Gafe",
+    "name": "GAFE",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/gafe.png",
+    "team": "outsider",
+    "ability": "Si mueres ejecutado, el jugador que inició tu nominación queda envenenado el día siguiente.",
+    "flavor": "\"Si me arrastráis a la horca, os llevaréis mi última maldición y os pondré dos velas negras.\"",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "ENVENENADO"
+    ]
+  },
+  {
+    "id": "El Huraño",
+    "name": "HURAÑO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/hurano.png",
+    "team": "outsider",
+    "ability": "Si uno de tus vecinos vivos muere ejecutado, tu otro vecino queda borracho durante el siguiente día.",
+    "flavor": "\"¡Os dije que me dejarais en paz! Mirad lo que habéis provocado ahora.\"",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "BORRACHO"
+    ]
+  },
+  {
+    "id": "El Hipnotista",
+    "name": "HIPNOTISTA",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/hipnotista.png",
+    "team": "minion",
+    "ability": "Cada noche, elige a un vecino vivo: queda envenenado hasta el atardecer. No puedes elegir al mismo jugador dos noches seguidas. Pierdes tu habilidad si quedan 3 jugadores vivos.",
+    "flavor": "\"Mírame fijamente a los ojos... y olvida de qué lado estás calificado para luchar.\"",
+    "firstNight": 18,
+    "otherNight": 18,
+    "firstNightReminder": "Cada noche, elige a un vecino vivo: queda envenenado hasta el atardecer. No puedes elegir al mismo jugador dos noches seguidas.",
+    "otherNightReminder": "Cada noche, elige a un vecino vivo: queda envenenado hasta el atardecer. No puedes elegir al mismo jugador dos noches seguidas.",
+    "reminders": [
+      "ENVENENADO"
+    ]
+  },
+  {
+    "id": "El Profanador",
+    "name": "PROFANADOR",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/profanador.png",
+    "team": "minion",
+    "ability": "Cada noche*: Elige a un jugador muerto para descubrir su rol. Después descubres el personaje de uno de tus vecinos (elegido por el Narrador).",
+    "flavor": "\"Incluso los cadáveres susurran sus más oscuros secretos a quien sabe escarbar.\"",
+    "firstNight": 0,
+    "otherNight": 50,
+    "otherNightReminder": "Cada noche*: Elige a un jugador muerto para descubrir su rol. Después descubres el personaje de uno de tus vecinos (elegido por el Narrador)."
+  },
+  {
+    "id": "El Cizañero",
+    "name": "CIZAÑERO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/cizanero.png",
+    "team": "minion",
+    "ability": "Cada noche, elige a un jugador. Mañana, si ese jugador vota pero uno de sus vecinos vivos NO vota en esa misma nominación, su voto no cuenta",
+    "flavor": "\"Siembra la duda entre dos vecinos y cosecharás su absoluta ruina.\"",
+    "firstNight": 15,
+    "otherNight": 15,
+    "firstNightReminder": "Cada noche, elige a un jugador. Mañana, si ese jugador vota pero uno de sus vecinos vivos NO vota en esa misma nominación, su voto no cuenta",
+    "otherNightReminder": "Cada noche, elige a un jugador. Mañana, si ese jugador vota pero uno de sus vecinos vivos NO vota en esa misma nominación, su voto no cuenta",
+    "reminders": [
+      "VOTO NULO"
+    ]
+  },
+  {
+    "id": "El Titiritero",
+    "name": "TITIRITERO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/titiritero.png",
+    "team": "minion",
+    "ability": "Cada noche, elige a un jugador. Si es ejecutado al atardecer, su vecino vivo bueno más cercano queda envenenado hasta el amanecer. Pierdes tu habilidad si quedan 3 jugadores vivos.",
+    "flavor": "\"Todos mueven los hilos que yo he atado con cuidado a sus cuellos.\"",
+    "firstNight": 30,
+    "otherNight": 30,
+    "firstNightReminder": "Elige a un jugador. Si es ejecutado al atardecer, su vecino vivo bueno más cercano queda envenenado hasta el amanecer.",
+    "otherNightReminder": "Elige a un jugador. Si es ejecutado al atardecer, su vecino vivo bueno más cercano queda envenenado hasta el amanecer.",
+    "reminders": [
+      "ELEGIDO",
+      "ENVENENADO"
+    ]
+  },
+  {
+    "id": "La Sombra",
+    "name": "SOMBRA",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/sombra.png",
+    "team": "demon",
+    "ability": "Cada noche*, elige a un jugador: muere. Si al ser ejecutado quedan vivos al menos la mitad de los jugadores con los que comenzó la partida, el Esbirro vivo más cercano se convierte en Sombra (esa noche no hay ataque).",
+    "flavor": "\"No puedes matar aquello que carece de cuerpo... simplemente cambia de huésped.\"",
+    "firstNight": 0,
+    "otherNight": 32,
+    "otherNightReminder": "La Sombra elige a un jugador para matarlo."
+  },
+  {
+    "id": "El Basilisco",
+    "name": "BASILISCO",
+    "image": "https://raw.githubusercontent.com/kagontox-source/BOTC-Vecinos/main/images/basilisco.png",
+    "team": "demon",
+    "ability": "Cada noche*, elige a un jugador: muere. Si un Forastero muere ejecutado, la noche siguiente puedes elegir a una víctima adicional (una vez por partida).",
+    "flavor": "\"Una mirada es suficiente para petrificar el alma de todo el pueblo.\"",
+    "firstNight": 0,
+    "otherNight": 34,
+    "otherNightReminder": "Si hoy murió un Forastero y el Basilisco no ha usado su ataque extra, puede elegir una segunda víctima.",
+    "reminders": [
+      "DOBLE ATAQUE"
+    ]
+  },
+  "zombuul",
+  "nodashii",
+  "bootlegger"
+]
